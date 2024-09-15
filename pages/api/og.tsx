@@ -9,7 +9,7 @@ export default async function handler(req: NextRequest) {
     const { searchParams } = new URL(req.url)
     const title = searchParams.get('title') || 'Vercel Edge Network'
 
-    const font = await fetch('https://github.com/orioncactus/pretendard/raw/main/packages/pretendard-std/dist/public/static/PretendardStd-Light.otf').then((res) => res.arrayBuffer())
+    const font = await fetch('https://github.com/supercomputra/SF-Mono-Font/raw/master/SFMono-Regular.otf').then((res) => res.arrayBuffer())
 
     return new ImageResponse(
         (
@@ -48,9 +48,12 @@ export default async function handler(req: NextRequest) {
                 </svg>
                 <div
                     style={{
-                        padding: 60,
+                        marginLeft: 60,
+                        marginRight: 60,
+                        marginTop: 40,
                         display: 'flex',
                         fontSize: 60,
+                        lineHeight: 1.6,
                         fontStyle: 'normal',
                         color: 'black',
                     }}
