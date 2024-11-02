@@ -32,11 +32,11 @@ export default async function handler(req: NextRequest) {
                         marginTop: 0,
                         paddingTop: 30,
                         paddingBottom: 30,
-                        paddingLeft: 40,
+                        paddingLeft: 60,
                         width: '100%',
                         display: 'flex',
                         fontSize: 60,
-                        lineHeight: 1.6,
+                        lineHeight: 1,
                         fontStyle: 'normal',
                         background: '#FBF7EC',
                         color: '#262624'
