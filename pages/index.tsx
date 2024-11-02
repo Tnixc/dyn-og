@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 export default function Page() {
-  const title = "Vercel Edge Network" // You can make this dynamic if needed
+  const title = "tnixc.space"
   const encodedTitle = encodeURIComponent(title)
 
   return (
