@@ -32,7 +32,6 @@ export default async function handler(req: NextRequest) {
                         marginTop: 0,
                         paddingTop: 40,
                         paddingBottom: 40,
-                        paddingLeft: 60,
                         width: '100%',
                         display: 'flex',
                         justifyContent: 'center',
