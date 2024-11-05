@@ -60,7 +60,7 @@ export default async function handler(req: NextRequest) {
         ),
         {
             width: 1200,
-            height: 600,
+            height: 630,
             fonts: [
                 {
                     name: 'Sentient',
