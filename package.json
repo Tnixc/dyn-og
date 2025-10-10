@@ -2,7 +2,7 @@
   "name": "vercel-og-nextjs",
   "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
-  "packageManager": "^pnpm@10.0.0",
+  "packageManager": "pnpm@10.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
