@@ -14,9 +14,6 @@ importers:
       next:
         specifier: latest
         version: 15.5.4(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      pnpm:
-        specifier: ^10.18.2
-        version: 10.18.2
       react:
         specifier: latest
         version: 19.2.0
@@ -332,11 +329,6 @@ packages:
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
-
-  pnpm@10.18.2:
-    resolution: {integrity: sha512-n7lp+nSbOt5gNeDxCfC4pgtdCKGof99y4zfakNzJMzbiKAyk5E8jWKZJuDwXlZ6Zk+d3wggIefOAHm8NmZrT3Q==}
-    engines: {node: '>=18.12'}
-    hasBin: true
 
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
@@ -665,8 +657,6 @@ snapshots:
       hex-rgb: 4.3.0
 
   picocolors@1.1.1: {}
-
-  pnpm@10.18.2: {}
 
   postcss-value-parser@4.2.0: {}
 
