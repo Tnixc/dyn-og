@@ -44,7 +44,9 @@ export default async function handler(req: NextRequest) {
               alignItems: "center",
             }}
           >
-            <span>[enochlau.com]</span>
+            <span style={{ opacity: 0.4 }}>[</span>
+            <span>enochlau.com</span>
+            <span style={{ opacity: 0.4 }}>]</span>
           </div>
           <div style={{ display: "flex", gap: 20 }}>
             <div
@@ -57,6 +59,7 @@ export default async function handler(req: NextRequest) {
                 style={{
                   width: 120,
                   height: 24,
+                  opacity: 0.2,
                   background:
                     "repeating-linear-gradient(-45deg, #FBF7EC, #FBF7EC 7px, transparent 7px, transparent 14px)",
                 }}
@@ -73,6 +76,7 @@ export default async function handler(req: NextRequest) {
                 style={{
                   width: 120,
                   height: 48,
+                  opacity: 0.4,
                   background:
                     "repeating-linear-gradient(-45deg, #FBF7EC, #FBF7EC 7px, transparent 7px, transparent 14px)",
                 }}
@@ -88,6 +92,7 @@ export default async function handler(req: NextRequest) {
                 style={{
                   width: 120,
                   height: 72,
+                  opacity: 0.6,
                   background:
                     "repeating-linear-gradient(-45deg, #FBF7EC, #FBF7EC 7px, transparent 7px, transparent 14px)",
                 }}
@@ -103,6 +108,7 @@ export default async function handler(req: NextRequest) {
                 style={{
                   width: 120,
                   height: 96,
+                  opacity: 0.8,
                   background:
                     "repeating-linear-gradient(-45deg, #FBF7EC, #FBF7EC 7px, transparent 7px, transparent 14px)",
                 }}
