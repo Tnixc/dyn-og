@@ -9,9 +9,8 @@ export default async function handler(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const title = searchParams.get("title") || "[{-_-}] ZZZzz zz z...";
 
-  const font = await fetch(
-    "https://utfs.io/f/LBZvH38TQ23f2dw6sn0iUJZCX0YV2PFoTMO7lIanb5vHKD8z",
-  ).then((res) => res.arrayBuffer());
+  const fontUrl = new URL("/Lilex-Italic.ttf", req.url);
+  const font = await fetch(fontUrl).then((res) => res.arrayBuffer());
 
   return new ImageResponse(
     (
